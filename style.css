@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.banner-wrap {
+    background-image: url('./assets/electric\ cars.jpg');
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover;
+    height: 100vh;
+    opacity: inherit;
+}
+
+nav {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.menu-options {
+    display: flex;
+}
+
+.menu-options p {
+    padding: 0 10px 0 10px;
+    margin: 0 8px 0 8px;
+    border-radius: 7px;
+}
+
+.menu-options p {
+ padding: 8px 12px 8px 12px;
+ margin: 0  8px 0 8px;
+}
+.menu-options :hover {
+ background-color: #a4a4a4;
+ 
+}
+
+.menu-icons {
+    padding: 0 10px 0 10px;
+    margin: 0 8px 0 8px;
+    /* Top Right Bottom left */
+}
+
+/* .menu-icons:hover {
+     background-color: #a4a4a4;
+     
+}  */
+
+.material-symbols-outlined:hover{ 
+   padding: 0 7px;
+    background-color: #a4a4a4;
+    cursor:pointer;
+}  
+
+.material-symbols-outlined{ 
+    padding: 0 4px;
+}  
+
+.material-symbols-outlined {
+ background-color: #504e4e; 
+ border-radius: 7px;
+ padding: 0 7px;
+ padding: 0 7px; 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    color: #2e2e2e;
+}
+
+.text-area h2 {
+    font-weight:400;
+}
+.text-area h1 {
+    font-size: 50px;
+}
+
+.text-area p{
+    font-size: 20px;;
+}
+
+.actions-area {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0 0 0;
+}
+
+.light-btn {
+    background-color: #e0e0e3;
+    color: #41424a;    
+}
+
+.light-btn:hover {
+    background-color: #41424a;
+    color: #e0e0e3    
+}
+
+.dark-btn {
+    background-color: #41424a;
+    color: #e0e0e3
+}
+
+.dark-btn:hover {
+   background-color: #e0e0e3;
+    color: #41424a;
+}
+
+.light-btn, .dark-btn {
+    border-radius: 5px;
+    width: 264px;
+    height: 40px;
+    margin: 10px 20px 30px 20px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+.price-budget-text a{
+    color: #41424a;
+}
+.price-budget-text a:hover{
+    color: #41424a;
+    text-decoration: 2px solid;
+}
+
+.price-budget-text {
+    color: #41424a;
+    margin-bottom: 20px;
+}
